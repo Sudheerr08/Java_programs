@@ -1,20 +1,14 @@
 package com.launch;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Launch
 {
 	 public static void main(String[] args) {
-		 System.setProperty("Webdriver.driver.Chrome", "/Users/labbuser/Desktop/eclipse-workspace/Leadschool/driiver/chromedriver.exe")
-	      
-	      // browser type and chromedrover.exe path as parameters
-	      //System.setProperty("webdriver.chrome.driver","/Users/labbuser/Desktop/eclipse-workspace/Leadschool/driiver/chromedriver.exe");
-	     // WebDriver driver = new ChromeDriver();
-	     Chromedriver driver = new WebDriver();
+		 System.setProperty("webdriver.driver.Chrome", "/Users/labbuser/IdeaProjects/Java_programs/Leadschool/driiver/chromedriver.exe");
+	     ChromeDriver driver = new ChromeDriver();
 		 String url = " https://leadschool.in/";
 	      driver.get(url);
 	   }
-t poiinnt
 
 }
